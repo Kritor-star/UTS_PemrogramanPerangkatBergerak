@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:backgroundTint="#000000">
+
+    <Button
+        android:id="@+id/activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginEnd="-1dp"
+        android:background="#9C27B0"
+        android:backgroundTint="#9C27B0"
+        android:foregroundTint="#000000"
+        android:text="Activity"
+        android:textColor="#ADFF2F" />
+
+    <Button
+        android:id="@+id/service"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="197dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="451dp"
+        android:background="#9C27B0"
+        android:backgroundTint="#9C27B0"
+        android:foregroundTint="#000000"
+        android:text="Service"
+        android:textColor="#ADFF2F" />
+
+    <Button
+        android:id="@+id/broadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="329dp"
+        android:layout_marginEnd="3dp"
+        android:background="#9C27B0"
+        android:backgroundTint="#9C27B0"
+        android:foregroundTint="#000000"
+        android:text="Broadcast Receiver"
+        android:textColor="#ADFF2F" />
+
+    <Button
+        android:id="@+id/intent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="271dp"
+        android:background="#9C27B0"
+        android:backgroundTint="#9C27B0"
+        android:foregroundTint="#000000"
+        android:text="Intent"
+        android:textColor="#ADFF2F" />
+
+    <Button
+        android:id="@+id/provider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="494dp"
+        android:layout_marginEnd="0dp"
+        android:background="#9C27B0"
+        android:backgroundTint="#9C27B0"
+        android:foregroundTint="#000000"
+        android:text="Content Provider"
+        android:textColor="#ADFF2F" />
+</RelativeLayout>

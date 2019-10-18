@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="374dp"
+        android:layout_height="168dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="66dp"
+        android:text="Activity adalah sebuah komponen aplikasi yang menyediakan layar yang digunakan pengguna untuk berinteraksi guna melakukan sesuatu, misalnya memilih nomor ponsel, mengambil foto, mengirim email, atau menampilkan peta. Tiap aktivitas diberi sebuah jendela untuk menggambar antarmuka penggunanya. Jendela ini biasanya mengisi layar, namun mungkin lebih kecil daripada layar dan mengambang di atas jendela lain." />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="69dp"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="254dp"
+        android:text="SYNTAX" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="187dp"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="292dp"
+        android:text="public class MainActivity extends Activity {
+.....
+}" />
+
+    <TextView
+        android:id="@+id/link1"
+        android:layout_width="162dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="267dp"
+        android:text="@string/linkactivity"
+        android:textColor="#1E90FF" />
+</RelativeLayout>
